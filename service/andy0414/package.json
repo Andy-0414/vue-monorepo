@@ -10,7 +10,10 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.7.0"
+    "@vueuse/core": "^10.4.0",
+    "@vueuse/nuxt": "^10.4.0",
+    "nuxt": "^3.7.0",
+    "sass": "^1.66.1"
   },
   "dependencies": {
     "@vue-monorepo/design-system": "workspace:^"
