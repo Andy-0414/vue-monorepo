@@ -1,0 +1,16 @@
+{
+  "name": "@vue-monorepo/design-system",
+  "peerDependencies": {
+    "vue": "*"
+  },
+  "exports": {
+    "./components": "./src/components/index.ts"
+  },
+  "typesVersions": {
+    "*": {
+      "components": [
+        "./src/components/index.ts"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "vue-monorepo",
+  "namespace": "@vue-monorepo",
+  "packageManager": "yarn@3.6.3",
+  "workspaces": [
+    "service/*",
+    "lib/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
