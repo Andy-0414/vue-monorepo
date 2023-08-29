@@ -1,32 +1,15 @@
-<script lang="ts" setup>
-import { useDark, useToggle } from "@vueuse/core";
-
-const isDark = useDark();
-const toggleDark = useToggle(isDark);
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <div
-    id="app"
-    @click="
-      {
-        toggleDark();
-      }
-    "
-  >
+  <div id="app">
     <RouterView />
   </div>
 </template>
 
 <style lang="scss">
 @import "@vue-monorepo/design-system/color";
+@import "@vue-monorepo/design-system/scss";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  transition: 0.25s;
-}
 html,
 body,
 #app {
