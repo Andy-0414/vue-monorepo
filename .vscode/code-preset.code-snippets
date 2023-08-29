@@ -1,0 +1,16 @@
+{
+  "Generate page": {
+    "prefix": "page",
+    "body": [
+      "<script lang=\"ts\" setup></script>",
+      "<template>",
+      "  <div class=\"$1\"></div>",
+      "</template>",
+      "<style lang=\"scss\" scoped>",
+      ".$1 {",
+      "}",
+      "</style>"
+    ],
+    "description": "페이지 템플릿"
+  }
+}
