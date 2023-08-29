@@ -1,17 +1,11 @@
-<script lang="ts" setup>
-import { adaptive } from "../color/index";
-import { useDark } from "@vueuse/core";
-
-const isDark = useDark();
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <div id="test">{{ isDark ? "dark" : "light" }}</div>
+  <div id="test">test</div>
 </template>
 
 <style lang="scss">
 #test {
-  background: v-bind("adaptive.background");
   transition: all 0.3s ease;
 }
 </style>
