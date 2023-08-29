@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { adaptive } from "@vue-monorepo/design-system/color";
 import { useDark, useToggle } from "@vueuse/core";
 
 const isDark = useDark();
@@ -20,6 +19,8 @@ const toggleDark = useToggle(isDark);
 </template>
 
 <style lang="scss">
+@import "@vue-monorepo/design-system/color";
+
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +35,7 @@ body,
 }
 
 #app {
-  background: v-bind("adaptive.background");
-  color: v-bind("adaptive.text");
+  background: var(--background);
+  color: var(--grey100);
 }
 </style>
