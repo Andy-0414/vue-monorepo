@@ -4,21 +4,21 @@
     "vue": "*"
   },
   "exports": {
-    "./color": "./src/color/index.scss",
+    "./colors": "./src/colors/index.scss",
     "./scss": "./src/scss/index.scss",
-    "./component": "./src/component/index.ts",
+    "./components": "./src/components/index.ts",
     "./utils": "./src/utils/index.ts"
   },
   "typesVersions": {
     "*": {
-      "color": [
-        "./src/color/index.scss"
+      "colors": [
+        "./src/colors/index.scss"
       ],
       "scss": [
         "./src/scss/index.scss"
       ],
-      "component": [
-        "./src/component/index.ts"
+      "components": [
+        "./src/components/index.ts"
       ],
       "utils": [
         "./src/utils/index.ts"

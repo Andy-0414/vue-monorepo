@@ -7,7 +7,7 @@
 </template>
 
 <style lang="scss">
-@import "@vue-monorepo/design-system/color";
+@import "@vue-monorepo/design-system/colors";
 @import "@vue-monorepo/design-system/scss";
 
 html,
